@@ -1,0 +1,48 @@
+.friends-display-link__icon{
+    width: 24px;
+    color: #2e363e5f;
+    margin-right: 5px;
+}
+.friends-display-link__icon2{
+    width: 18px;
+    color: #2e363e5f;
+    margin-left: 5px;
+}
+.chavron{
+    width: 18px;
+    color: #2e363e5f;
+}
+
+#friends-display-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.friends-screen__channel__header{
+    color: #2e363e7a;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 0 0;  
+}
+.channel-component__title{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2e363e;
+}
+.channel-components{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+}
+.channel-components span{
+    color: var(--grey);
+    font-size: 16px;
+}

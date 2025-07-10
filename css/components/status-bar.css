@@ -1,9 +1,15 @@
 .status-bar{
     display:flex;
+    font-size: 16px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap; /* 줄바꿈 방지 */
-    padding: 5px 3px;
+    padding: 5px 10px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 .status-bar__column {
     display: flex;
@@ -21,8 +27,14 @@
     margin-right: 5px; /* 아이콘과 텍스트 사이 간격 */
 }
 .size-6{
+    width: 18px;
+}
+.size-battery{
     width: 24px;
 }
-.size-6-1{
+.size-charging{
     width: 10px;
+}
+.size-wifi{
+    width: 20px;
 }
