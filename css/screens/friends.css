@@ -20,6 +20,9 @@
     background-color: #fafafa;
     font-size: 14px;
     padding: 10px 0;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .friends-screen__channel__header{
@@ -29,7 +32,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 0 0;  
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 .channel-component__title{
     font-size: 18px;
@@ -40,7 +44,6 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:20px;
 }
 .channel-components span{
     color: var(--grey);

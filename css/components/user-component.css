@@ -5,6 +5,21 @@
 .divide-box{
     padding-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+.divide-box--small{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e09f;
+    margin-bottom: 10px;
+
+}
+
+
+.user-component{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 .user-component__column{
     display: flex;
@@ -32,7 +47,29 @@
     color: #2e363e;
 }
 .user-component__subtitle{
-    font-size: 15px;
+    font-size: 14px;
     color: #2e363e5f;
-    margin-top:6px;
+    margin-top:8px;
+}
+.chats__subtitle{
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chats__title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.user-component__time{
+    font-size: 14px;
+    color: #2e363e5f;
+    margin-bottom: 8px;
+}
+.user-component__column--right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }

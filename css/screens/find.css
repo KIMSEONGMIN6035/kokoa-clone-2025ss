@@ -1,0 +1,114 @@
+.find-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-top: 10px;
+
+}
+.find-icons__icon__icon{
+    width: 30px;
+    margin-bottom: 10px;
+
+}
+.find-icons__icon span{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    /*글자 중앙 정렬*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.recommended-friends{
+    /*최소 높이*/
+    min-height: 220px;
+    color: var(--grey);
+}
+.recommended-friends__title{
+    font-size: 14px;
+}
+.recommended-friends__notice{
+    font-size: 16px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    color: var(--grey);
+    font-size: 14px;
+}
+.open-chat__header--right{
+    display: flex;
+    align-items: center;
+}
+.open-chat__column{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.open-chat__column--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.open-chat__column--left__title{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2e363e;
+}
+.open-chat__column--left__subtitle{
+    font-size: 16px;
+    color: var(--grey);
+    margin-top: 8px;
+    width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.open-chat__column--left__info{
+    font-size: 14px;
+    color: var(--grey);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.open-chat__column--left__info__image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.open-chat__column--left__info__active{
+    color:blueviolet;
+}
+.open-chat__column--right{
+    position: relative;
+}
+.open-chat__column--right__image{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.open-chat__column--right__like{
+    display: flex;
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:5px;
+    border-radius: 20px;
+    top: 70px;
+    right: 5px;
+}
