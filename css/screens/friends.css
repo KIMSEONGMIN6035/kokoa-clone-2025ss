@@ -49,3 +49,28 @@
     color: var(--grey);
     font-size: 16px;
 }
+#splash-screen{
+    background-color: var(--yellow);
+    z-index: 9999;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 1s;
+}
+.splash-icon{
+    width: 128px;
+}
+@keyframes hideSplashScreen{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

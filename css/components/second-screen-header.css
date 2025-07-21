@@ -1,0 +1,51 @@
+.second__screen-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--horizontal-space);
+    padding-top: 50px;
+    margin-bottom: 15px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    box-sizing: border-box;
+    /*레이어 맨 위로*/
+    z-index: 999;
+    background-color: rgb(256,256,256);
+}
+.second__screen-header__column {
+    display: flex;
+    align-items: center; /* 텍스트와 아이콘 수직 정렬 */
+    width: 33%; /* 필요 시 축소 허용 */
+}
+.second__screen-header__column:nth-child(2){
+    justify-content: center;
+}
+.second__screen-header__column:nth-child(3){
+    justify-content: flex-end;
+}
+.second__screen-header__icons{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.second__screen-header__icon{
+    width: 28px;
+    color: #2e363e;
+    position: relative;
+}
+.second__screen-header__title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #2e363e;
+}
+.second__screen-header__icon__notification{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    left: 50%;
+}

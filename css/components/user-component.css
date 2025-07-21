@@ -7,11 +7,16 @@
     border-bottom: 1px solid #e0e0e0;
     margin-bottom: 10px;
 }
-.divide-box--small{
+.divide-box__soft{
     padding-bottom: 10px;
     border-bottom: 1px solid #e0e0e09f;
     margin-bottom: 10px;
-
+}
+.divide-box__hard{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 
@@ -19,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .user-component__column{
     display: flex;

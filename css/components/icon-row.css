@@ -1,0 +1,39 @@
+.icons-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /*한줄에 4개씩만*/
+    flex-wrap: wrap;
+}
+.icons-row__cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-top: 10px;
+    justify-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.icons-row__cell__icon{
+    width: 30px;
+    margin-bottom: 10px;
+}
+.icons-row__cell span{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin:0;
+    margin-top: 5px;
+}
+.icons-row__cell__notification-icon{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    right: 25%;
+    top: -15%;
+}

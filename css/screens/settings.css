@@ -1,0 +1,30 @@
+.settings-list{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+.settings-list__column{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+    justify-content: space-between;
+}
+.settings-list__column__left{
+    display: flex;
+    align-items: center;
+}
+.settings-list__column__left__icon{
+    width: 28px;
+    margin-right: 10px;
+}
+.settings-list__column__left span{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.settings-list__column__right{
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+}
